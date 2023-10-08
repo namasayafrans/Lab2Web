@@ -1,11 +1,12 @@
 # Praktikum 2 - Pemrograman Web
-### Fatihul Falah Hidayatullah - 311910460
-### TI.19.A2
+### Frans Putra Sinaga - 312210046
+### TI.22.A1
 
 ## LANGKAH 1
 buat dokumen html dengan isi berikut :
-![step-1](https://i.imgur.com/NFm1zO9.png)
-```
+![s1](https://github.com/namasayafrans/Lab2Web/assets/115770839/5c357fd0-4369-46d0-8771-1ec510b8e862)
+
+0```
 <!DOCTYPE html>
 <html lang="en">
 <head>
