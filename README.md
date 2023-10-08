@@ -5,116 +5,31 @@
 ## LANGKAH 1
 buat dokumen html dengan isi berikut :
 ![s1](https://github.com/namasayafrans/Lab2Web/assets/115770839/5c357fd0-4369-46d0-8771-1ec510b8e862)
+hasil ouput 
+![s2](https://github.com/namasayafrans/Lab2Web/assets/115770839/5d60c1c8-49b1-4149-924d-f63c37c2e76f)
 
-0```
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>CSS Dasar</title>
-</head>
-<body>
- <header>
- <h1>CSS Internal dan <i>Inline CSS</i></h1>
- </header>
- <nav>
- <a href="lab2_css_dasar.html">CSS Dasar</a>
- <a href="lab2_css_eksternal.html">CSS Eksternal</a>
- <a href="lab1_tag_dasar.html">HTML Dasar</a>
- </nav>
- <!-- CSS ID Selector -->
- <div id="intro">
- <h1>Hello World</h1>
- <p>Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman
-Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
-adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
-dan CSS.</p>
- <!-- CSS Class Selector -->
- <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
- </div>
-</body>
-</html>
-```
-lalu buka pada browser untuk melihat hasilnya
-![step-1 output](https://i.imgur.com/o4JDDuV.png)
 ## LANGKAH 2
 ### Mendeklarasikan CSS Internal
 Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen
-```
-<head>
- <title>CSS Dasar</title>
- <style>
- body {
- font-family:'Open Sans', sans-serif;
- }
- header {
- min-height: 80px;
- border-bottom:1px solid #77CCEF;
- }
- h1 {
- font-size: 24px;
- color: #0F189F;
- text-align: center;
- padding: 20px 10px;
- }
- h1 i {
- color:#6d6a6b;
- }
- </style>
-</head>
-```
-![step-2](https://i.imgur.com/74Emtig.png)
-
-Selanjutnya simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat
-hasilnya
-![step-2 output](https://i.imgur.com/xVibmX4.png)
+![s3](https://github.com/namasayafrans/Lab2Web/assets/115770839/1342cad3-c568-42d9-86f7-5e5c3fdba88b)
+hasil ouput 
+![s5](https://github.com/namasayafrans/Lab2Web/assets/115770839/8670f4d5-81d6-4a2f-968a-ca4743e783c1)
 
 ## LANGKAH 3
 ### Menambahkan Inline CSS
- tambahkan deklarasi inline CSS pada tag <p> seperti berikut
- ```
- <p style="text-align: center; color: #ccd8e4;">
- ```
- before:
- ![step-3 before](https://i.imgur.com/PdQFu6Z.png)
- after :
- ![step-3 after](https://i.imgur.com/ukibvhK.png)
- Simpan kembali dan refresh kembali browser untuk melihat perubahannya:
+tambahkan deklarasi inline CSS pada tag <p> seperti berikut
+![s4 1](https://github.com/namasayafrans/Lab2Web/assets/115770839/c39b59f5-4386-4120-876a-b4b7fcdb31ab)
+hasil ouput 
+![s4](https://github.com/namasayafrans/Lab2Web/assets/115770839/80299d4a-4583-4a0e-9cfe-80fbe5cef44a)
 
- ![step-3 output](https://i.imgur.com/WGGwbOZ.png)
-
- ## LANGKAH 4
- ### Membuat CSS Eksternal
- Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut
- ```
- nav {
-background: #20A759;
-color:#fff;
-padding: 10px;
-}
-nav a {
-color: #fff;
-text-decoration: none;
-padding:10px 20px;
-}
-nav .active,
-nav a:hover {
-background: #0B6B3A;
-}
-```
-![step-4](https://i.imgur.com/ujFftw1.png)
-Kemudian tambahkan tag `<link>`untuk merujuk file css yang sudah dibuat pada bagian `<head>`
-```
-<head>
- <!-- menyisipkan css eksternal -->
- <link rel="stylesheet" href="style_eksternal.css" type="text/css">
-</head>
-```
-![step-4-1](https://i.imgur.com/W6UCxAk.png)
-
-Selanjutnya refresh kembali browser untuk melihat perubahannya
-![step-4-1](https://i.imgur.com/ISMBGGb.png)
+## LANGKAH 4
+### Membuat CSS Eksternal
+Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut
+![s6](https://github.com/namasayafrans/Lab2Web/assets/115770839/7ce261bb-bc81-4b13-90e1-6023f5e108bf)
+Di dalam file Lab2_css_eksternal.html 
+![s7](https://github.com/namasayafrans/Lab2Web/assets/115770839/f8e4fb6c-0b0b-40a6-a98f-2c7b39681183)
+hasil ouput 
+![s8](https://github.com/namasayafrans/Lab2Web/assets/115770839/eb119efb-2156-43d3-a62b-f4f21bfa7fd9)
 
 ## LANGKAH 5
 ### Menambahkan CSS Selector
