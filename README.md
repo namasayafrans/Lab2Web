@@ -33,38 +33,12 @@ hasil ouput
 
 ## LANGKAH 5
 ### Menambahkan CSS Selector
-Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file
-style_eksternal.css, tambahkan kode berikut
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut
+![s9](https://github.com/namasayafrans/Lab2Web/assets/115770839/b5ccb52f-ada8-43d0-b179-d8a6843f9705)
 
-```
-/* ID Selector */
-#intro {
-background: #418fb1;
-border: 1px solid #099249;
-min-height: 100px;
-padding: 10px;
-}
-#intro h1 {
-text-align: left;
-border: 0;
-color: #fff;
-}
-/* Class Selector */
-.button {
- padding: 15px 20px;
-background: #bebcbd;
-color: #fff;
-display: inline-block;
-margin: 10px;
-text-decoration: none;
-}
-.btn-primary {
-background: #E42A42;
-}
-```
-![step-5](https://i.imgur.com/qcaS83z.png)
 Kemudian simpan kembali dan refresh browser untuk melihat perubahannya.
-![step-5 OUTPUT](https://i.imgur.com/gOklVYe.png)
+![s10](https://github.com/namasayafrans/Lab2Web/assets/115770839/7c542a65-b730-43a5-8d55-54191af3dfed)
+
 
 # Pertanyaan dan Tugas
 ### 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini
